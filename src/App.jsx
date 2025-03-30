@@ -5,7 +5,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SnackCards from "./components/SnackCards";
-import SnackTriggers from "./components/snackTriggers";
+import SnackTriggers from "./components/SnackTriggers.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
