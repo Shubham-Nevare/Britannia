@@ -24,7 +24,7 @@ function Header() {
         <div className="hidden md:flex items-center space-x-4">
           <button className="text-xl">🔍</button>
           <button className="text-xl">🌍</button>
-          <a href="/shop" className="bg-red-600 text-white px-5 py-2 rounded-l-full rounded-r-md text-sm">
+          <a href="/" className="bg-red-600 text-white px-5 py-2 rounded-l-full rounded-r-md text-sm">
             SHOP NOW →
           </a>
         </div>
