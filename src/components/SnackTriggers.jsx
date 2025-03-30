@@ -13,18 +13,18 @@ function SnackTriggers() {
       {/* Circular Layout Container */}
       <div className="relative w-[500px] h-[500px] mt-14 flex items-center justify-center">
         {/* Center Circle */}
-        <div className="absolute text-center text-red-700 text-2xl font-bold rounded-full p-6 h-40 w-40 border-2">
+        <div className="absolute text-center text-red-700 text-2xl font-bold rounded-full p-6 h-40 w-40">
           Sneaky Snack Triggers!
         </div>
 
         {/* Outer Circles */}
         {/* Circular Layout Container */}
         <div
-          className="absolute flex flex-col items-center"
-          style={{ top: "50px", left: "30%" }}
+          className="absolute flex flex-col items-center w-40 pb-4"
+          style={{ top: "20px", left: "35%" }}
         >
           <div className="text-left">
-            <h3 className="text-sm font-bold">The Study Snack Trap¹</h3>
+            <h3 className="text-sm font-bold">The Study Snack Trap¹ -</h3>
             <p className="text-xs text-gray-700">
               Reading + munching = mindless calories!
             </p>
@@ -51,11 +51,13 @@ function SnackTriggers() {
             />
           </div>
           <div className="text-left">
-            <h3 className="text-sm font-bold">Skipped Breakfast¹</h3>
+            <h3 className="text-sm font-bold">Skipped Breakfast¹ -</h3>
             <p className="text-xs text-gray-700">
-              Miss it, and cravings take over! Energy dips turn into snack
-              attacks, letting cravings call the shots.
+              Miss it, and cravings take over!   
             </p>
+            <p className="text-xs text-gray-700">Energy dips turn into</p>
+            <p className="text-xs text-gray-700">snack attacks, letting cravings</p>
+            <p className="text-xs text-gray-700">call the shots.</p>
           </div>
         </div>
 
@@ -72,10 +74,11 @@ function SnackTriggers() {
             />
           </div>
           <div className="text-left">
-            <h3 className="text-sm font-bold">The Fizzy Fix¹</h3>
+            <h3 className="text-sm font-bold">The Fizzy Fix¹ -</h3>
             <p className="text-xs text-gray-700">
-              Sugary drinks spike cravings, leaving you wanting more.
+              Sugary drinks spike cravings,
             </p>
+            <p className="text-xs text-gray-700"> leaving you wanting more.</p>
           </div>
         </div>
 
@@ -92,7 +95,7 @@ function SnackTriggers() {
             />
           </div>
           <div className="text-left mt-2">
-            <h3 className="text-sm font-bold">Meal Skipping¹</h3>
+            <h3 className="text-sm font-bold">Meal Skipping¹ -</h3>
             <p className="text-xs text-gray-700">
               Skipping meals = energy dips = snacking spree later!
             </p>
@@ -102,13 +105,14 @@ function SnackTriggers() {
         {/* Sleep & Snack Cravings */}
         <div
           className="absolute flex flex-row items-center w-70"
-          style={{ top: "60%", left: "-40%" }}
+          style={{ top: "60%", left: "-20%" }}
         >
           <div className="text-left mr-4">
-            <h3 className="text-sm font-bold">Sleep & Snack Cravings²</h3>
+            <h3 className="text-sm font-bold">Sleep & Snack Cravings² -</h3>
             <p className="text-xs text-gray-700">
-              Less sleep = more cravings = a never-ending cycle!
+              Less sleep = more cravings 
             </p>
+            <p className="text-xs text-gray-700">= a never-ending cycle!</p>
           </div>
           <div className="w-20 h-20 bg-yellow-500 flex items-center justify-center rounded-full shadow-lg border-4 border-red-700">
             <img
@@ -119,12 +123,13 @@ function SnackTriggers() {
           </div>
         </div>
 
+{/* The No-Schedule Snacking */}
         <div
           className="absolute flex flex-row items-center"
           style={{ top: "30%", left: "-25%" }}
         >
           <div className="text-left mr-4">
-            <h3 className="text-sm font-bold">The No-Schedule Snacking¹</h3>
+            <h3 className="text-sm font-bold">The No-Schedule Snacking¹ -</h3>
             <p className="text-xs text-gray-700">Random bites all day</p>
           </div>
           <div className="w-20 h-20 bg-yellow-500 flex items-center justify-center rounded-full shadow-lg border-4 border-red-700">
