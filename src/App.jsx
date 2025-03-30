@@ -47,7 +47,7 @@ function App() {
       <SnackTriggers />
 
       {/* Button Banner */}
-      <div className="flex flex-wrap items-center justify-evenly bg-gray-200 p-10 rounded-lg w-full">
+      <div className="flex flex-wrap items-center justify-evenly bg-gray-200 p-10 rounded-lg w-full gap-5">
         {/* Left Section - Icon and Text */}
         <div className="flex items-center space-x-4 pl-10">
           <img src="/Images/Rectangle.png" alt="icon" className="w-20 h-25" />
