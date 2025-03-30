@@ -20,7 +20,7 @@ function App() {
       </div>
 
       {/* snack trap */}
-      <div className="bg-red-700 text-white p-20 flex items-center w-full">
+      <div className="bg-red-700 text-white p-15 md:p-20 flex items-center w-full">
         <h1 className="font-bold leading-[1] font-Cocogoose">
           <span className="text-[30px] font-extrabold font-Cocogoose pl-12">
             The
