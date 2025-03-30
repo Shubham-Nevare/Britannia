@@ -11,7 +11,7 @@ function SnackTriggers() {
       </p>
 
       {/* Circular Layout Container */}
-      <div className="relative w-[500px] h-[500px] mt-10 flex items-center justify-center">
+      <div className="relative w-[500px] h-[500px] mt-14 flex items-center justify-center">
         {/* Center Circle */}
         <div className="absolute text-center text-red-700 text-2xl font-bold rounded-full p-6 h-40 w-40 border-2">
           Sneaky Snack Triggers!
@@ -23,7 +23,7 @@ function SnackTriggers() {
           className="absolute flex flex-col items-center"
           style={{ top: "50px", left: "30%" }}
         >
-          <div className="text-center mb-2">
+          <div className="text-left">
             <h3 className="text-sm font-bold">The Study Snack Trap¹</h3>
             <p className="text-xs text-gray-700">
               Reading + munching = mindless calories!
@@ -40,7 +40,7 @@ function SnackTriggers() {
 
         {/* Skipped Breakfast */}
         <div
-          className="absolute flex flex-row items-center"
+          className="absolute flex flex-row items-center w-80"
           style={{ top: "30%", left: "72%" }}
         >
           <div className="w-20 h-20 bg-yellow-500 flex items-center justify-center rounded-full shadow-lg border-4 border-red-700 mr-4">
@@ -61,21 +61,19 @@ function SnackTriggers() {
 
         {/* The Fizzy Fix */}
         <div
-          className="absolute flex flex-row items-center"
+          className="absolute flex flex-row items-center w-80"
           style={{ top: "60%", left: "70%" }}
         >
-          <div className="w-20 h-20 flex items-center justify-center rounded-full shadow-lg border-4 border-red-700 bg-yellow-500">
+          <div className="w-20 h-20 flex items-center justify-center rounded-full shadow-lg border-4 border-red-700 bg-yellow-500 mr-4">
             <img
               src="/Images/fizzy-fix.png"
               alt="The Fizzy Fix"
               className="w-12 h-12"
             />
           </div>
-          <div>
-            <h3 className="text-sm font-bold text-center mt-2">
-              The Fizzy Fix¹
-            </h3>
-            <p className="text-xs text-center text-gray-700">
+          <div className="text-left">
+            <h3 className="text-sm font-bold">The Fizzy Fix¹</h3>
+            <p className="text-xs text-gray-700">
               Sugary drinks spike cravings, leaving you wanting more.
             </p>
           </div>
@@ -83,8 +81,8 @@ function SnackTriggers() {
 
         {/* Meal Skipping */}
         <div
-          className="absolute flex flex-col items-center"
-          style={{ bottom: "50px", left: "24%" }}
+          className="absolute flex flex-col items-center w-40"
+          style={{ bottom: "10px", left: "34%" }}
         >
           <div className="w-20 h-20 bg-yellow-500 flex items-center justify-center rounded-full shadow-lg border-4 border-red-700">
             <img
@@ -93,7 +91,7 @@ function SnackTriggers() {
               className="w-12 h-12 object-contain"
             />
           </div>
-          <div className="text-center mt-2">
+          <div className="text-left mt-2">
             <h3 className="text-sm font-bold">Meal Skipping¹</h3>
             <p className="text-xs text-gray-700">
               Skipping meals = energy dips = snacking spree later!
@@ -103,7 +101,7 @@ function SnackTriggers() {
 
         {/* Sleep & Snack Cravings */}
         <div
-          className="absolute flex flex-row items-center"
+          className="absolute flex flex-row items-center w-70"
           style={{ top: "60%", left: "-40%" }}
         >
           <div className="text-left mr-4">
@@ -123,7 +121,7 @@ function SnackTriggers() {
 
         <div
           className="absolute flex flex-row items-center"
-          style={{ top: "30%", right: "70%" }}
+          style={{ top: "30%", left: "-25%" }}
         >
           <div className="text-left mr-4">
             <h3 className="text-sm font-bold">The No-Schedule Snacking¹</h3>
