@@ -6,19 +6,18 @@ function Header() {
   return (
     <>
       <div className="flex justify-between items-center h-[80px] px-5 md:px-10 lg:px-16 bg-white shadow-md">
-        {/* Logo */}
         
-
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 lg:space-x-8 text-sm justify-center items-center">
-          <a href="/">ABOUT</a>
-          <a href="/about">PRODUCTS</a>
-          <a href="/contact">IMPACT</a>
-          <a href="/">INVESTOR RELATIONS</a>
+          <a href="src/pages/About.jsx" className="hover:font-semibold transition duration-300">ABOUT</a>
+          <a href="/" className="hover:font-semibold transition duration-300">PRODUCTS</a>
+          <a href="/" className="hover:font-semibold transition duration-300">IMPACT</a>
+          <a href="/" className="hover:font-semibold transition duration-300">INVESTOR RELATIONS</a>
+          {/* Logo */}
           <img src="/Images/logo2.svg" alt="icon" className="w-[120px] h-auto md:w-[144px]" />
-          <a href="/">CAREERS</a>
-          <a href="/about">NEWS & MEDIA</a>
-          <a href="/contact">CONTACT</a>
+          <a href="/" className="hover:font-semibold transition duration-300">CAREERS</a>
+          <a href="/" className="hover:font-semibold transition duration-300">NEWS & MEDIA</a>
+          <a href="/" className="hover:font-semibold transition duration-300">CONTACT</a>
         </nav>
 
         {/* Right Side Icons */}

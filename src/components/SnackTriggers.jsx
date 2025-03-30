@@ -4,7 +4,9 @@ function SnackTriggers() {
   return (
     <div className="bg-yellow-200 p-10 flex flex-col items-center">
       {/* Title Section */}
-      <h2 className="text-3xl font-bold text-black items-start">Snack Triggers</h2>
+      <h2 className="text-3xl font-bold text-black items-start">
+        Snack Triggers
+      </h2>
       <p className="text-lg text-gray-800 max-w-lg mt-2">
         Our unhealthy snacking is often out of habit, not hunger. Let’s uncover
         what triggers are really driving those cravings!
@@ -13,7 +15,7 @@ function SnackTriggers() {
       {/* Circular Layout Container */}
       <div className="relative w-[500px] h-[500px] mt-14 flex items-center justify-center">
         {/* Center Circle */}
-        <div className="absolute text-center text-red-700 text-2xl font-bold rounded-full p-6 h-40 w-40">
+        <div className="absolute text-left text-red-700 text-3xl font-extrabold rounded-full p-6 h-40 w-40">
           Sneaky Snack Triggers!
         </div>
 
@@ -53,10 +55,12 @@ function SnackTriggers() {
           <div className="text-left">
             <h3 className="text-sm font-bold">Skipped Breakfast¹ -</h3>
             <p className="text-xs text-gray-700">
-              Miss it, and cravings take over!   
+              Miss it, and cravings take over!
             </p>
             <p className="text-xs text-gray-700">Energy dips turn into</p>
-            <p className="text-xs text-gray-700">snack attacks, letting cravings</p>
+            <p className="text-xs text-gray-700">
+              snack attacks, letting cravings
+            </p>
             <p className="text-xs text-gray-700">call the shots.</p>
           </div>
         </div>
@@ -109,9 +113,7 @@ function SnackTriggers() {
         >
           <div className="text-left mr-4">
             <h3 className="text-sm font-bold">Sleep & Snack Cravings² -</h3>
-            <p className="text-xs text-gray-700">
-              Less sleep = more cravings 
-            </p>
+            <p className="text-xs text-gray-700">Less sleep = more cravings</p>
             <p className="text-xs text-gray-700">= a never-ending cycle!</p>
           </div>
           <div className="w-20 h-20 bg-yellow-500 flex items-center justify-center rounded-full shadow-lg border-4 border-red-700">
@@ -123,7 +125,7 @@ function SnackTriggers() {
           </div>
         </div>
 
-{/* The No-Schedule Snacking */}
+        {/* The No-Schedule Snacking */}
         <div
           className="absolute flex flex-row items-center"
           style={{ top: "30%", left: "-25%" }}

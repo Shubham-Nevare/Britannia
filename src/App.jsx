@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -58,15 +56,15 @@ function App() {
 
         {/* Right Section - Buttons */}
         <div className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-3 pt-2">
-          <button className="bg-[#A32D2D] text-white px-6 py-2 rounded-full text-lg font-medium">
-            All
-          </button>
-          <button className="bg-[#A32D2D] text-white px-6 py-2 rounded-full text-lg font-medium">
-            Few
-          </button>
-          <button className="bg-[#A32D2D] text-white px-6 py-2 rounded-full text-lg font-medium">
-            None
-          </button>
+          {["All", "Few", "None"].map((label) => (
+            <button
+              key={label}
+              className="bg-[#A32D2D] text-white px-8 py-3 rounded-full text-lg font-medium transition-transform active:scale-95 focus:outline-none "
+              aria-label={`Select ${label}`}
+            >
+              {label}
+            </button>
+          ))}
         </div>
       </div>
 

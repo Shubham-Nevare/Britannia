@@ -99,7 +99,7 @@ function Footer() {
             <p className="font-bold">1-800-30004530</p>
             <a
               href="mailto:feedback@britindia.com"
-              className="text-black underline"
+              className="text-black underline hover:text-blue-600 transition duration-300"
             >
               feedback@britindia.com
             </a>
@@ -114,7 +114,7 @@ function Footer() {
                 <img
                   src="/Images/linkedin.svg"
                   alt="LinkedIn"
-                  className="w-6"
+                  className="w-6 hover:w-7 transition duration-300"
                 />
               </a>
               <a
@@ -125,7 +125,7 @@ function Footer() {
                 <img
                   src="/Images/facebook.svg"
                   alt="Facebook"
-                  className="w-6"
+                  className="w-6 hover:w-7 transition duration-300"
                 />
               </a>
               <a
@@ -133,7 +133,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/Images/x.svg" alt="X" className="w-6" />
+                <img src="/Images/x.svg" alt="X" className="w-6 hover:w-7 transition duration-300" />
               </a>
               <a
                 href="https://www.instagram.com"
@@ -143,7 +143,7 @@ function Footer() {
                 <img
                   src="/Images/instagram.svg"
                   alt="Instagram"
-                  className="w-6"
+                  className="w-6 hover:w-7 transition duration-300"
                 />
               </a>
               <a
@@ -151,7 +151,7 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/Images/youtube.svg" alt="YouTube" className="w-6" />
+                <img src="/Images/youtube.svg" alt="YouTube" className="w-6 hover:w-7 transition duration-300" />
               </a>
             </div>
           </div>
