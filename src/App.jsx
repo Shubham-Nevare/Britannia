@@ -30,14 +30,14 @@ function App() {
             Snack
           </span>
           <br />
-          <span className="text-[75px] font-bold font-Cocogoose pl-20">
+          <span className="text-[60px] md:text-[75px] font-semibold md:font-bold  font-Cocogoose pl-20">
             Trap
           </span>
-          <span className="text-yellow-400 text-[30px] font-semibold ml-2 font-Cocogoose">
+          <span className="text-yellow-400 text-[20px] md:text-[30px] font-semibold ml-2 font-Cocogoose">
             Why is it
           </span>
           <br />
-          <span className="text-yellow-400 text-[50px] font-bold font-Cocogoose pl-20">
+          <span className="text-yellow-400 text-[40px] md:text-[50px] font-bold font-Cocogoose pl-20">
             impacting us?
           </span>
         </h1>
